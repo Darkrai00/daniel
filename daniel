@@ -1,0 +1,14 @@
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        int x = Integer.parseInt(jTextField1.getText());
+        int y = Integer.parseInt(jTextField2.getText());
+        int z = Integer.parseInt(jTextField3.getText());
+        int a = Integer.parseInt(jTextField4.getText());
+        
+       int sum;
+           sum    = x + y + z + a;
+       double ave;
+       ave = sum / 4;
+        
+        jLabel1.setText("" + String.valueOf(ave));
+       
